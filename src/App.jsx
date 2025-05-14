@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import Sidebar from './components/sidebar'
-import Player from './components/Player'
+import Sidebar from '../src/components/Sidebar'
+import Player from '../src/components/Player'
 import { Route, Routes } from 'react-router-dom'
-import Display from './components/Display'
-import { PlayerContext } from './context/PlayerContext'
+import Display from '../src/components/Display'
+import { PlayerContext } from '../src/context/PlayerContext'
 
 
 const App = () => {
